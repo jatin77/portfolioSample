@@ -1,0 +1,39 @@
+$pink-color:#d12b7e;
+$white-color:#fff;
+$black-dark-color:#000;
+$black-light-color:#1a1a1a;
+$grey-dark-color:#c0c0c0;
+$grey-light-color:#efefef;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  background: $white-color;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+@mixin transition {
+  transition: all .3s linear;
+}

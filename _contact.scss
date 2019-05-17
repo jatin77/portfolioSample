@@ -1,0 +1,73 @@
+#contact {
+
+
+  h1 {
+    font-size: 2.5rem;
+    padding: 0 0 4rem 0;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  a {
+    padding-top: 1rem;
+    display: inline-block;
+    font-size: 1.3rem;
+    color: $pink-color;
+  }
+
+  form {
+    padding-top: 5rem;
+    max-width: 80%;
+    width: 600px;
+    margin: auto;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        padding: 1rem 0;
+        font-size: 1.6rem;
+      }
+
+      input {
+        height: 30px;
+        font-size: 1.4rem;
+        text-indent: 1rem;
+
+        &::placeholder {
+          color: $grey-dark-color;
+
+        }
+      }
+
+      textarea {
+        font-size: 1.4rem;
+        padding: 1rem;
+
+        &::placeholder {
+          color: $grey-dark-color;
+        }
+      }
+
+    }
+
+    button {
+      background: $pink-color;
+      color: #fff;
+      margin-top: 2rem;
+      padding: 1rem 1.5rem;
+      border: none;
+      outline: none;
+      font-size: 1.6rem;
+      cursor: pointer;
+
+      &:hover {
+        background: lighten($pink-color, 5%);
+      }
+    }
+  }
+}
